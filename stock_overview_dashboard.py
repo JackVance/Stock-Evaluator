@@ -16,8 +16,8 @@ Created on Fri Jul 22 11:11:28 2022
 import datetime
 # dash components
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 from dash.dependencies import Input, Output, State
 import plotly.express as px
 import plotly.graph_objects as go
