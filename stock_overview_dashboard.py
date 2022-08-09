@@ -355,9 +355,10 @@ app.layout = html.Div(children=[html.Div(children=[html.A("Big Ol' Buffalo Detec
                                           html.Div(dcc.Graph(id='historical-close-price-chart')),
                                           
                                           html.Div(children=(
-                                              html.Div(dcc.Graph(id='historical-financials-chart',
-                                                                 style={'height':500})),
-                                              dcc.Markdown(id='info-text')
+                                              html.Div(dcc.Graph(id='historical-financials-chart'),
+                                                       style={'height':50}),
+                                              dcc.Markdown(id='info-text', 
+                                                           style={'break-inside':'avoid-column'})
                                               ),
                                               style={'columnCount':2,
                                                      'column-gap':'0px',
@@ -442,4 +443,4 @@ def altTick(click, pick, tick): # too. much. fun.
 
 #run
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(host= '0.0.0.0',port=80)
