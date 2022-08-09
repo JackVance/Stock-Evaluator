@@ -443,4 +443,4 @@ def altTick(click, pick, tick): # too. much. fun.
 
 #run
 if __name__ == '__main__':
-    app.run_server(host= '0.0.0.0',port=80)
+    app.run_server(host='0.0.0.0', port=8050)
