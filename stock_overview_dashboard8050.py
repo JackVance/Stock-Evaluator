@@ -288,8 +288,8 @@ app.layout = html.Div(children=[html.Div(children=[html.A("Big Ol' Buffalo Detec
                                                           href='http://bigolbuffalo.com/EnterTheBison.html'),
                                                    html.A('Buffalo Bark Machine',
                                                           href='http://bigolbuffalo.com/BuffaloBarkMachine.html'),
-                                                   html.A('Buy-Son',
-                                                          href='http://54.89.208.102:8050/')],
+                                                   html.A('Bython Projects',
+                                                          href='http://bigolbuffalo.com/Bython.html')],
                                          className='topnav'),
                       
                                 html.Div(children=[html.H1('Buy-Son (Stock Evaluation Dashboard)',
